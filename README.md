@@ -1,2 +1,2 @@
 # zdravac
-zdrava hrana online
+zdravac
