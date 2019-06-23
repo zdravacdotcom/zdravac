@@ -38,21 +38,23 @@
 	                 url('../LetoSans-Bold.svg') format('svg');
             }
 	
-		h1 {
-		font-weight: normal;
-		font-size: 3em;
-		}
+	    table.sredina {
+	        margin-left:auto; 
+                margin-right:auto;
+	    }
 		
 	    a:link, a:visited {
 		text-decoration: none;
                 color: green;
 	    }
 		
-	    p {
-		padding: 0px;
-		margin: 0px;
-		}
-	    
+	    td.right {
+		text-align: right;
+	    }
+		
+	    td.border {
+		    border-bottom: 1px solid #ccc; 
+	    }
 	
         </style>
 
@@ -61,26 +63,64 @@
     <body>
         
 	    
-        
-	        <p><a href="https://www.google.rs/maps/place/zdravac/@44.8149269,20.4611128,15z/data=!4m5!3m4!1s0x0:0x4a68bf091f7af26a!8m2!3d44.8149269!4d20.4611128" target="_blank">Čumićevo sokače, lokal 45</a></p>
-	    <p>pon-pet: 12-20 + sub: 11-17</p>
-	        <p><a href="https://www.facebook.com/zdravac.diskont/" target="_blank">facebook</a> + <a href="https://www.instagram.com/zdravac.diskont/" target="_blank">instagram</a></p>
-		<p><td>+381 11 32 33 353</p>
-	    
-	    
-                <h1 style="text-align: center;"><a href="https://www.google.rs/maps/place/zdravac/@44.8149269,20.4611128,15z/data=!4m5!3m4!1s0x0:0x4a68bf091f7af26a!8m2!3d44.8149269!4d20.4611128" target="_blank"><span style="font-family:LetoSans-Bold;"><span style="color:red;"><</span><span style="color:green;">3дравац</span><span style="color:white;">></span></span></a></h1>
-	    <p><span style="font-family:LetoSans-Bold;">31/5/2019</span></p>
-			<p></p>
+        <table class="sredina">
+		
+	    <tr class="razmak-drugi">
+                <td><a href="https://www.google.rs/maps/place/zdravac/@44.8149269,20.4611128,15z/data=!4m5!3m4!1s0x0:0x4a68bf091f7af26a!8m2!3d44.8149269!4d20.4611128" target="_blank">Čumićevo sokače, lokal 45</td>
+                <td class="right" colspan="2"><a href="https://www.facebook.com/zdravac.diskont/" target="_blank">facebook</a> / <a href="https://www.instagram.com/zdravac.diskont/" target="_blank">instagram</a></td>
+            </tr>
+
+            <tr class="razmak-drugi">
+                <td>pon-pet: 12-20</td>
+                <td class="right" colspan="2">info[at]zdravac.com</td>
+            </tr>
+
+            <tr class="razmak-drugi">
+                <td>sub: 11-17</td>
+                <td class="right" colspan="2">+381 11 32 33 353</td>
+                <td></td>
+            </tr>
+
             
+            <tr><td></br></td></tr>
+	    <tr><td></br></td></tr>
+
+
 	
-    	  
+	    <tr class="razmak-drugi">
+                <td colspan="2"><a href="https://www.google.rs/maps/place/zdravac/@44.8149269,20.4611128,15z/data=!4m5!3m4!1s0x0:0x4a68bf091f7af26a!8m2!3d44.8149269!4d20.4611128" target="_blank"><span style="font-size:28px; font-family:LetoSans-Bold;"><span style="color:red;"><</span><span style="color:green;">3дравац</span></span></a></td>
+		<td class="right"><span style="font-size:14px; font-family:LetoSans-Bold;">24/6/2019</span></td>
+            </tr>			
+			
+            
+			
+            <tr><td></br></td></tr>
+            <tr><td></br></td></tr>
+    	    
   
-                <p><a href="http://www.prodavnicazdravehrane.rs/prodavnica/proizvodi/%C5%BEitarice,-mahunarke,-musli,-keksi/amarant-detalji" target="_blank"><span style="font-family:LetoSans-Bold;">amarant, 500g, 200 rsd</span></a></p>
-                <p><span style="font-family:LetoSans-Bold;">amarant, rinfuz, 300 rsd/kg</span></p>
-                <p>anis, rinfuz, 860 rsd/kg</p>
-                <p>aronija (suva), rinfuz, 760 rsd/kg</p>
-             
-        
+            <tr class="razmak">
+                <td><a href="http://www.prodavnicazdravehrane.rs/prodavnica/proizvodi/%C5%BEitarice,-mahunarke,-musli,-keksi/amarant-detalji" target="_blank"><span style="font-family:LetoSans-Bold;">amarant, seme, Beyond, org.</span></a></td>
+		<td><span style="font-family:LetoSans-Bold;">500 g</span></td>
+                <td class="right"><span style="font-family:LetoSans-Bold;">200</span></td>
+            </tr>
+
+            <tr class="razmak">
+                <td><span style="font-family:LetoSans-Bold;">amarant, seme</span></td>
+		<td><span style="font-family:LetoSans-Bold;">rinfuz</span></td>
+                <td class="right"><span style="font-family:LetoSans-Bold;">300</span></td>
+            </tr>
+
+            <tr class="razmak">
+                <td>anis, seme/plod</td>
+                <td>rinfuz</td>
+                <td class="right">860</td>
+            </tr>
+
+            <tr class="razmak">
+                <td>aronija, sušena, bez dodatog šećera</td>
+                <td>rinfuz</td>
+                <td class="right">760</td>
+            </tr>
 
 
 
@@ -97,13 +137,19 @@
             </tr>
 
             <tr class="razmak">
-                <td><span style="font-family:LetoSans-Bold;"><a href="https://www.creasrl.it/en/prodotto/mandorla/" target="_blank">bademovo brašno / mleveni badem, Crea srl</a></span></td>
+                <td><span style="font-family:LetoSans-Bold;"><a href="https://www.creasrl.it/en/prodotto/mandorla/" target="_blank">bademovo brašno - mleveni badem, Crea srl</a></span></td>
                 <td><span style="font-family:LetoSans-Bold;">rinfuz</span></td>
-                <td class="right"><span style="font-family:LetoSans-Bold;">1700</span></td>
+                <td class="right"><span style="font-family:LetoSans-Bold;">1800</span></td>
             </tr>
 
             <tr class="razmak">
-                <td>beli luk, mleveni / u prahu</td>
+                <td><a href="https://thebridgebio.com/product-catalogue/bio-almond-drinks/pure-almond/" target="_blank">bademovo mleko - čist napitak od badema, The Bridge, org.</a></td>
+                <td>1 lit.</td>
+                <td class="right">397</td>
+            </tr>
+
+            <tr class="razmak">
+                <td>beli luk, mleveni - u prahu</td>
                 <td>rinfuz</td>
                 <td class="right">300</td>
             </tr>
@@ -127,19 +173,19 @@
             </tr>
 
             <tr class="razmak">
-		 <td><a href="https://biobella.rs/proteinske-plocice/" target="_blank">bundevine / golicine proteinske pločice, bez brašna, Biobella</a></td>
+		 <td><a href="https://biobella.rs/proteinske-plocice/" target="_blank">bundevine - golicine proteinske pločice, bez brašna, Biobella</a></td>
 		 <td>rinfuz</td>
 		 <td class="right">700</td>
             </tr>
 
             <tr class="razmak">
-		 <td><span style="font-family:LetoSans-Bold;">bundevino / golicino seme, sirovo, krupno</span></td>
+		 <td><span style="font-family:LetoSans-Bold;">bundevino - golicino seme, sirovo, krupno</span></td>
 		 <td><span style="font-family:LetoSans-Bold;">rinfuz</span></td>
 		 <td class="right"><span style="font-family:LetoSans-Bold;">500</span></td>
             </tr>
 			
 	   <tr class="razmak">
-                 <td><a href="https://www.granum.rs/hladno-cedena-i-devicanska-ulja/devicansko-budevino-ulje?sku=301020001/" target="_blank">bundevino / golicino ulje, od pečenog semena, hladno ceđeno, Granum</td>
+                 <td><a href="https://www.granum.rs/hladno-cedena-i-devicanska-ulja/devicansko-budevino-ulje?sku=301020001/" target="_blank">bundevino - golicino ulje, od pečenog semena, hladno ceđeno, Granum</td>
                  <td>250 ml</td>
                  <td class="right">950</td>
             </tr>
@@ -269,13 +315,13 @@
 
 
             <tr class="razmak">
-                <td>grašak, osušen, oljušten (tzv. proteinski)</td>
+                <td>grašak, osušen, oljušten (tzv. proteinski), Italico</td>
                 <td>rinfuz</td>
                 <td class="right">140</td>
             </tr >
 
             <tr class="razmak">
-                <td>groždje, suvo</td>
+                <td>groždje, suvo, Iran</td>
                 <td>rinfuz</td>
                 <td class="right">400</td>
             </tr >
@@ -411,7 +457,11 @@
 
             <tr class="razmak-drugi"><td class="border" colspan="3"></br></td></tr><tr><td></br></td></tr>			
 
-
+            <tr class="razmak">
+                <td><span style="font-family:LetoSans-Bold;">kajsija, prirodno sušena, bez konzervansa</span></td>
+                <td><span style="font-family:LetoSans-Bold;">rinfuz</span></td>
+                <td class="right"><span style="font-family:LetoSans-Bold;">700</span></td>
+            </tr>
 
            
             <tr class="razmak">
@@ -457,7 +507,7 @@
             </tr>
 
             <tr class="razmak">
-                <td><a href="http://www.plotghana.com/" target="_blank"><span style="font-family:LetoSans-Bold;">kakao puter, lomljen, sirov / natur / nerafinisan</span></a></td>
+                <td><a href="http://www.plotghana.com/" target="_blank"><span style="font-family:LetoSans-Bold;">kakao puter, lomljen, sirov - natur - nerafinisan</span></a></td>
                 <td><span style="font-family:LetoSans-Bold;">rinfuz</span></td>
                 <td class="right"><span style="font-family:LetoSans-Bold;">1400</span></td>
             </tr>
@@ -466,12 +516,6 @@
                 <td>karanfilić, cvet</td>
                 <td>rinfuz</td>
                 <td class="right">2300</td>
-            </tr>
-			
-	    <tr class="razmak">
-                <td><a href="http://true-story.co/prodavnica/potaz-od-karfiola/" target="_blank">karfiol potaž, mešavina dehidriranog povrća, True Story</a></td>
-                <td>40 g</td>
-                <td class="right">230</td>
             </tr>
 
             <tr class="razmak">
@@ -487,7 +531,7 @@
             </tr>
 
             <tr class="razmak">
-                <td>kim, seme/plod</td>
+                <td>kim, seme / plod</td>
                 <td>rinfuz</td>
                 <td class="right">460</td>
             </tr>
@@ -511,9 +555,21 @@
             </tr>
 
             <tr class="razmak">
-                <td><a href="http://hyperic.rs/index.php/proizvodi/kokosov-puter" target="_blank">kokosov puter, Hyperic</a></td>
+                <td><a href="http://hyperic.rs/index.php/proizvodi/kokosov-puter" target="_blank">kokosov puter, 100% kokos, Hyperic</a></td>
                 <td>170 g</td>
                 <td class="right">229</td>
+            </tr>
+
+            <tr class="razmak">
+                <td><a href="http://www.beyondhealthfood.com/nasi-artikli/prirodni-zasladjivaci/kokosov-se%C4%87er-organski-detail" target="_blank">kokosov šećer, Beyond, org.</a></td>
+                <td>100 g</td>
+                <td class="right">115</td>
+            </tr>
+
+            <tr class="razmak">
+                <td><a href="http://www.beyondhealthfood.com/nasi-artikli/prirodni-zasladjivaci/kokosov-se%C4%87er-organski-detail" target="_blank">kokosov šećer, Beyond, org.</a></td>
+                <td>400 g</td>
+                <td class="right">435</td>
             </tr>
 
             <tr class="razmak">
@@ -529,9 +585,15 @@
             </tr>
             
             <tr class="razmak">
-                <td><a href="http://www.prodavnicazdravehrane.rs/prodavnica/proizvodi/jestiva-ulja/kokosovo-ulje,-organsko,-ekstra-devi%C4%8Dansko,-310g-detalji" target="_blank">kokosovo ulje, ekstra devičansko, hladno ceđeno, Beyond, org.</a></td>
+                <td><a href="http://www.prodavnicazdravehrane.rs/prodavnica/proizvodi/jestiva-ulja/kokosovo-ulje,-organsko,-ekstra-devi%C4%8Dansko,-310g-detalji" target="_blank">kokosovo ulje, ekstra devičansko, hladno ceđeno, Filipini, Beyond, org.</a></td>
                 <td>310 g</td>
                 <td class="right">570</td>
+            </tr>
+
+            <tr class="razmak">
+                <td>kokosovo ulje, ekstra devičansko, hladno ceđeno, Šri Lanka, The Best of Nature</td>
+                <td>300 ml</td>
+                <td class="right">390</td>
             </tr>
 
             <tr class="razmak">
@@ -558,12 +620,6 @@
                 <td class="right"><span style="font-family:LetoSans-Bold;">2000</span></td>
             </tr>
 
-	    <tr class="razmak">
-                <td><a href="http://melia.rs/product/melia-ksilitol-500g/" target="_blank">ksilitol / brezin šećer, niskokalorični zaslađivač, Melia</a></td>
-                <td>500 g</td>
-                <td class="right">630</td>
-            </tr>
-
             <tr class="razmak">
                 <td><a href="http://www.reprotrade.rs/penne-rigate-od-kukuruznog-brasna/" target="_blank">kukuruzna makarona, bez glutena, Repro Trade</a></td>
                 <td>400 g</td>
@@ -586,6 +642,12 @@
                 <td>kukuruzna palenta</td>
                 <td>rinfuz</td>
                 <td class="right">80</td>
+            </tr>
+
+            <tr class="razmak">
+                <td><a href="http://www.reprotrade.rs/palenta-organska-integralna-kukuruzna/" target="_blank">kukuruzna palenta, integralna, bez glutena, Repro Trade, org.</a></td>
+                <td>400g</td>
+                <td class="right">130</td>
             </tr>
 
             <tr class="razmak">
@@ -782,11 +844,7 @@
 
 
 
-            <tr class="razmak">
-                <td>orah, domaći</td>
-                <td>rinfuz</td>
-                <td class="right">900</td>
-            </tr>
+           
      			
 	    <tr class="razmak">
                 <td>ovas, celo zrno, oljušten</td>
@@ -911,15 +969,27 @@
             </tr>
 
             <tr class="razmak">
-                <td><a href="http://www.prodavnicazdravehrane.rs/prodavnica/proizvodi/%C5%BEitarice,-mahunarke,-musli,-keksi/azuki-pasulj-organski-detalji" target="_blank">pasulj, azuki, Beyond org.</a></td>
+                <td><a href="http://www.prodavnicazdravehrane.rs/prodavnica/proizvodi/%C5%BEitarice,-mahunarke,-musli,-keksi/azuki-pasulj-organski-detalji" target="_blank">pasulj, azuki, Beyond, org.</a></td>
                 <td>500 g</td>
                 <td class="right">290</td>
+            </tr>
+
+            <tr class="razmak">
+                <td><a href="http://lafinestrasulcielo.it/en/products/cereals-vegetables-and-seeds/legumi/ready-to-eat-pulses-and-soups-in-can/organic-azuki-beans-1lazu/" target="_blank">pasulj, azuki, kuvani, La Finestra, org.</a></td>
+                <td>400 g</td>
+                <td class="right">148</td>
             </tr>
 			
 	    <tr class="razmak">
                 <td>pasulj, beli, tzv. Tetovac</td>
                 <td>rinfuz</td>
-                <td class="right">240</td>
+                <td class="right">220</td>
+            </tr>
+
+            <tr class="razmak">
+                <td><a href="http://lafinestrasulcielo.it/en/products/cereals-vegetables-and-seeds/legumi/ready-to-eat-pulses-and-soups-in-can/fagioli-neri-1lane/" target="_blank">pasulj, crni, kuvani, La Finestra, org.</a></td>
+                <td>400 g</td>
+                <td class="right">148</td>
             </tr>
 
             <tr class="razmak">
@@ -935,9 +1005,15 @@
             </tr>
 
             <tr class="razmak">
-                <td><span style="font-family:LetoSans-Bold;">pinjoli, sirovi / pinjol, sirov</td>
+                <td><span style="font-family:LetoSans-Bold;">pinjoli, sirovi (seme bora)</td>
                 <td><span style="font-family:LetoSans-Bold;">rinfuz</span></td>
                 <td class="right"><span style="font-family:LetoSans-Bold;">4500</span></td>
+            </tr>
+
+            <tr class="razmak">
+                <td><a href="http://www.beyondhealthfood.com/namena/organski-proizvodi/basmati-integralni-pirinac-organski-detail" target="_blank">pirinač, basmati, integralni, dugo zrno, Beyond, org.</a></td>
+                <td>500 g</td>
+                <td class="right">248</td>
             </tr>
 
             <tr class="razmak">
@@ -1211,7 +1287,7 @@
             <tr class="razmak">
                 <td>susamov puter, susamova pasta, tahini, taan, Think Green</td>
                 <td>500 g</td>
-                <td class="right">398</td>
+                <td class="right">430</td>
             </tr>
 
             <tr class="razmak">
@@ -1262,16 +1338,12 @@
 
 
 
-            <tr class="razmak">
-                <td>umeboši sirće, blažeg ukusa, Muso</td>
-                <td>187 ml</td>
-                <td class="right">210</td>
-            </tr>
+         
 
             <tr class="razmak">
                 <td>umeboši sirće, snažnijeg ukusa, BioŠpajz</td>
                 <td>200 ml</td>
-                <td class="right">210</td>
+                <td class="right">155</td>
             </tr>
 
             <tr class="razmak">
